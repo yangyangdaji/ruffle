@@ -242,4 +242,3 @@ jobs:
         with:
           name: macos-universal-package
           path: ${{ env.PACKAGE_FILE }}
-          
