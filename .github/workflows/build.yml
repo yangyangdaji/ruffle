@@ -228,8 +228,8 @@ jobs:
           zip -r Ruffle.zip Ruffle.app
           mv Ruffle.zip ..
           cd ..
-          xcrun notarytool submit Ruffle.zip --keychain-profile Ruffle --wait
-          xcrun stapler staple package/Ruffle.app
+       #   xcrun notarytool submit Ruffle.zip --keychain-profile Ruffle --wait
+        #  xcrun stapler staple package/Ruffle.app
 
       - name: Package macOS
         run: |
